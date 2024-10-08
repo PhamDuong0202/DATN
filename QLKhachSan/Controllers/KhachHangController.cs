@@ -47,12 +47,12 @@ namespace QLKhachSan.Controllers
             HttpContext.Session.SetString("OtpCreationTime", DateTime.Now.ToString());
             var otp1 = HttpContext.Session.GetString("maOTP");
             var otpCreationTimeString = HttpContext.Session.GetString("OtpCreationTime");
-            var fromAddress = new MailAddress("duongphamgl022024@gmail.com", "Hotel");
+            var fromAddress = new MailAddress("taikhoan", "Hotel");
             var toAddress = new MailAddress(email);
             var smtpClient = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("duongphamgl022024@gmail.com", "bnfgxsyklzrhksan"),
+                Credentials = new NetworkCredential("taikhoan", "matkhau"),
                 EnableSsl = true,
             };
             var mailMessage = new MailMessage(fromAddress, toAddress)
@@ -295,7 +295,7 @@ namespace QLKhachSan.Controllers
                 var smtpClient = new SmtpClient("smtp.gmail.com")
                 {
                     Port = 587,
-                    Credentials = new NetworkCredential("duongphamgl022024@gmail.com", "bnfgxsyklzrhksan"),
+                    Credentials = new NetworkCredential("taikhoan", "matkhau"),
                     EnableSsl = true,
 
                 };
@@ -303,7 +303,7 @@ namespace QLKhachSan.Controllers
 
                 // Tạo nội dung email với đường dẫn đặt lại mật khẩu
                 var emailContent = $"Nhấp vào <a href=\"{resetLink}\">đây</a> để đặt lại mật khẩu:";
-                var fromAddress = new MailAddress("duongphamgl022024@gmail.com", "KhachSanVIP");
+                var fromAddress = new MailAddress("taikhoan", "KhachSanVIP");
 
                 // Tạo địa chỉ email người nhận
                 var toAddress = new MailAddress(email);

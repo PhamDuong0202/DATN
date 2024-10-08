@@ -298,10 +298,10 @@ namespace QLKhachSan.Controllers
             var smtpClient = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("duongphamgl022024@gmail.com", "bnfgxsyklzrhksan"),
+                Credentials = new NetworkCredential("taikhoan", "matkhau"),
                 EnableSsl = true,
             };
-            var fromAddress = new MailAddress("duongphamgl022024@gmail.com", "Hotel");
+            var fromAddress = new MailAddress("taikhoan", "Hotel");
             var toAddress = new MailAddress(customerEmail ?? bookingModels.First().Email);
             var mailMessage = new MailMessage(fromAddress, toAddress)
             {

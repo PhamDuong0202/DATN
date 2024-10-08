@@ -11050,11 +11050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr.Duong\\Documents\\DATN\\DATN\\QLKhachSan\\QLKhachSan\\QLKhachSan.csproj",
+      "projectUniqueName": "D:\\DATN\\QLKhachSan\\QLKhachSan.csproj",
       "projectName": "QLKhachSan",
-      "projectPath": "C:\\Users\\Mr.Duong\\Documents\\DATN\\DATN\\QLKhachSan\\QLKhachSan\\QLKhachSan.csproj",
+      "projectPath": "D:\\DATN\\QLKhachSan\\QLKhachSan.csproj",
       "packagesPath": "C:\\Users\\Mr.Duong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mr.Duong\\Documents\\DATN\\DATN\\QLKhachSan\\QLKhachSan\\obj\\",
+      "outputPath": "D:\\DATN\\QLKhachSan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

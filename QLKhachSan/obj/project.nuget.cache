@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mliodwxeyFOGBVwWKHhEwy+xZvE92PakPFASk0cZ5GF6PKbcpmBQq6BhtHIk+n++Rzq59d04WwDbNsa+IvcvWQ==",
+  "dgSpecHash": "wp62StTEi4Zg0xHwkRTgZv9iWKo5syJ9v3+NiRAdkYwGQ2bJ7wmGz/dNbXf8z2uDUL5VHKTXmg5/RxZ/YUeilg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mr.Duong\\Documents\\DATN\\DATN\\QLKhachSan\\QLKhachSan\\QLKhachSan.csproj",
+  "projectFilePath": "D:\\DATN\\QLKhachSan\\QLKhachSan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mr.Duong\\.nuget\\packages\\dinktopdf\\1.0.8\\dinktopdf.1.0.8.nupkg.sha512",
     "C:\\Users\\Mr.Duong\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

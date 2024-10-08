@@ -196,8 +196,9 @@ namespace QLKhachSan.Areas.Admin.Controllers
                     {
                         var smtpClient = new SmtpClient("smtp.gmail.com")
                         {
+                            //sudungtaikhoancuaban
                             Port = 587,
-                            Credentials = new NetworkCredential("duongphamgl022024@gmail.com", "bnfgxsyklzrhksan"),
+                            Credentials = new NetworkCredential("taikhoan", "matkhau"),
                             EnableSsl = true,
                         };
 
@@ -244,7 +245,7 @@ namespace QLKhachSan.Areas.Admin.Controllers
                     </body>
                     </html>";
 
-                        var fromAddress = new MailAddress("duongphamgl022024@gmail.com", "KhachSanVIP");
+                        var fromAddress = new MailAddress("taikhoan", "KhachSanVIP");
                         var toAddress = new MailAddress(email);
 
                         var mailMessage = new MailMessage(fromAddress, toAddress)
